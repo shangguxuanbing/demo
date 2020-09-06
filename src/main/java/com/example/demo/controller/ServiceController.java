@@ -15,7 +15,7 @@ public class ServiceController {
     @ResponseBody
     public String hello(){
         System.out.println("hello world");
-        return "hello world";
+        return "hello cb";
     }
 
 }
