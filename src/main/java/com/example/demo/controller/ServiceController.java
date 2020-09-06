@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * @data 2020-9-6 17:17
  * @description
  */
+@RequestMapping
 public class ServiceController {
 
     @RequestMapping("/hello")
