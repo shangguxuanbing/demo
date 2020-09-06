@@ -8,7 +8,7 @@ package com.example.demo.bean;
  */
 public class User {
     private String name;
-    private int age2;
+    private String age3;
 
     public User() {
     }
@@ -17,15 +17,15 @@ public class User {
         return name;
     }
 
-    public int getAge2() {
-        return age2;
+    public String getAge3() {
+        return age3;
     }
 
     public void setName(String name) {
         this.name = name;
     }
 
-    public void setAge2(int age2) {
-        this.age2 = age2;
+    public void setAge3(String age3) {
+        this.age3 = age3;
     }
 }
